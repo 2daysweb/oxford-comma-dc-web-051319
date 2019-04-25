@@ -1,7 +1,11 @@
 def oxford_comma(array)
 string = ""
 if array.size == 1 
-    return array.to_s
+    string_with_slashes = array.to_s
+    end_index  = string_with_slashes.length - 2 
+    string_cleaned = string_with_slashes[1,end_index]
+    return string_cleaned
+    
   elsif array.size == 2 
   return "#{array[0]} and #{array[1]}"
 else
