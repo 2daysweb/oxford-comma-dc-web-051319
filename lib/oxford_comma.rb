@@ -1,7 +1,7 @@
 def oxford_comma(array)
 string = ""
 if oxford_comma.size == 1 
-    return array.join
+    return array.to_s
   elsif oxford_comma.size == 2 
   return "#{array[0]} and #{array[1]}"
 else
