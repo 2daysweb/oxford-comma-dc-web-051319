@@ -1,5 +1,5 @@
 def oxford_comma(array)
-string
+string_with_slashes =""
 if array.size == 1 
     string_with_slashes = array.to_s
     end_index  = string_with_slashes.length - 2 
