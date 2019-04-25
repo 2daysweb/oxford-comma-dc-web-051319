@@ -1,5 +1,4 @@
-require_relative '../oxford_comma.rb'
-require_relative './spec_helper.rb'
+
 
 describe "#oxford_comma" do
   it 'returns a string without any additional fomatting when given a 1-element array' do
