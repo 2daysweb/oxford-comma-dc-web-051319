@@ -1,4 +1,4 @@
-require_relative '../oxford_comma.rb'
+require_relative '.../oxford_comma.rb'
 require_relative './spec_helper.rb'
 
 describe "#oxford_comma" do
