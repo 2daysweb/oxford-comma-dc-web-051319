@@ -1,6 +1,6 @@
 def oxford_comma(array)
 string = ""
-if oxford_common.size > 0 
+if oxford_comma.size > 0 
   string = array.join(",")
   return string
 else
