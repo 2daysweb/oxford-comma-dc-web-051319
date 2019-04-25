@@ -6,3 +6,4 @@ if oxford_common.size > 0
 else
   return array[0].to_s
 end
+end
