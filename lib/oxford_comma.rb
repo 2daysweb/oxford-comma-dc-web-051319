@@ -13,7 +13,7 @@ if array.size == 1
   return "#{array[0]}, #{array[1]}, and #{array[2]}"
 else
   end_index = array.length - 1 
-  string = array[0,end_index].join(",").concat( and #{end_index}) 
+  string = array[0,end_index].join(",").concat( "and #{end_index}") 
   return string
 
 
